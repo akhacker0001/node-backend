@@ -1,0 +1,424 @@
+{
+    "colors":[
+        {
+            "name": "INDIANRED"
+        },
+        {
+            "name": "LIGHTCORAL"
+        },
+        {
+            "name": "SALMON"
+        },
+        {
+            "name": "DARKSALMON"
+        },
+        {
+            "name": "LIGHTSALMON"
+        },
+        {
+            "name": "CRIMSON"
+        },
+        {
+            "name": "RED"
+        },
+        {
+            "name": "DARKRED"
+        },
+        {
+            "name": "PINK"
+        },
+        {
+            "name": "LIGHTPINK"
+        },
+        {
+            "name": "HOTPINK"
+        },
+        {
+            "name": "DEEPPINK"
+        },
+        {
+            "name": "MEDIUMVIOLETRED"
+        },
+        {
+            "name": "PALEVIOLETRED"
+        },
+        {
+            "name": "CORAL"
+        },
+        {
+            "name": "TOMATO"
+        },
+        {
+            "name": "ORANGERED"
+        },
+        {
+            "name": "DARKORANGE"
+        },
+        {
+            "name": "ORANGE"
+        },
+        {
+            "name": "GOLD"
+        },
+        {
+            "name": "YELLOW"
+        },
+        {
+            "name": "LIGHTYELLOW"
+        },
+        {
+            "name": "LEMONCHIFFON"
+        },
+        {
+            "name": "LIGHTGOLDENRODYELLOW"
+        },
+        {
+            "name": "PAPAYAWHIP"
+        },
+        {
+            "name": "MOCCASIN"
+        },
+        {
+            "name": "PEACHPUFF"
+        },
+        {
+            "name": "PALEGOLDENROD"
+        },
+        {
+            "name": "KHAKI"
+        },
+        {
+            "name": "DARKKHAKI"
+        },
+        {
+            "name": "LAVENDER"
+        },
+        {
+            "name": "THISTLE"
+        },
+        {
+            "name": "PLUM"
+        },
+        {
+            "name": "VIOLET"
+        },
+        {
+            "name": "ORCHID"
+        },
+        {
+            "name": "FUCHSIA"
+        },
+        {
+            "name": "MAGENTA"
+        },
+        {
+            "name": "MEDIUMORCHID"
+        },
+        {
+            "name": "MEDIUMPURPLE"
+        },
+        {
+            "name": "REBECCAPURPLE"
+        },
+        {
+            "name": "BLUEVIOLET"
+        },
+        {
+            "name": "DARKVIOLET"
+        },
+        {
+            "name": "DARKORCHID"
+        },
+        {
+            "name": "DARKMAGENTA"
+        },
+        {
+            "name": "PURPLE"
+        },
+        {
+            "name": "INDIGO"
+        },
+        {
+            "name": "SLATEBLUE"
+        },
+        {
+            "name": "DARKSLATEBLUE"
+        },
+        {
+            "name": "MEDIUMSLATEBLUE"
+        },
+        {
+            "name": "GREENYELLOW"
+        },
+        {
+            "name": "CHARTREUSE"
+        },
+        {
+            "name": "LAWNGREEN"
+        },
+        {
+            "name": "LIME"
+        },
+        {
+            "name": "LIMEGREEN"
+        },
+        {
+            "name": "PALEGREEN"
+        },
+        {
+            "name": "LIGHTGREEN"
+        },
+        {
+            "name": "MEDIUMSPRINGGREEN"
+        },
+        {
+            "name": "SPRINGGREEN"
+        },
+        {
+            "name": "MEDIUMSEAGREEN"
+        },
+        {
+            "name": "SEAGREEN"
+        },
+        {
+            "name": "FORESTGREEN"
+        },
+        {
+            "name": "GREEN"
+        },
+        {
+            "name": "DARKGREEN"
+        },
+        {
+            "name": "YELLOWGREEN"
+        },
+        {
+            "name": "OLIVEDRAB"
+        },
+        {
+            "name": "OLIVE"
+        },
+        {
+            "name": "DARKOLIVEGREEN"
+        },
+        {
+            "name": "MEDIUMAQUAMARINE"
+        },
+        {
+            "name": "DARKSEAGREEN"
+        },
+        {
+            "name": "LIGHTSEAGREEN"
+        },
+        {
+            "name": "DARKCYAN"
+        },
+        {
+            "name": "TEAL"
+        },
+        {
+            "name": "AQUA"
+        },
+        {
+            "name": "CYAN"
+        },
+        {
+            "name": "LIGHTCYAN"
+        },
+        {
+            "name": "PALETURQUOISE"
+        },
+        {
+            "name": "AQUAMARINE"
+        },
+        {
+            "name": "TURQUOISE"
+        },
+        {
+            "name": "MEDIUMTURQUOISE"
+        },
+        {
+            "name": "DARKTURQUOISE"
+        },
+        {
+            "name": "CADETBLUE"
+        },
+        {
+            "name": "STEELBLUE"
+        },
+        {
+            "name": "LIGHTSTEELBLUE"
+        },
+        {
+            "name": "POWDERBLUE"
+        },
+        {
+            "name": "LIGHTBLUE"
+        },
+        {
+            "name": "SKYBLUE"
+        },
+        {
+            "name": "LIGHTSKYBLUE"
+        },
+        {
+            "name": "DEEPSKYBLUE"
+        },
+        {
+            "name": "DODGERBLUE"
+        },
+        {
+            "name": "CORNFLOWERBLUE"
+        },
+        {
+            "name": "ROYALBLUE"
+        },
+        {
+            "name": "BLUE"
+        },
+        {
+            "name": "MEDIUMBLUE"
+        },
+        {
+            "name": "DARKBLUE"
+        },
+        {
+            "name": "NAVY"
+        },
+        {
+            "name": "MIDNIGHTBLUE"
+        },
+        {
+            "name": "CORNSILK"
+        },
+        {
+            "name": "BLANCHEDALMOND"
+        },
+        {
+            "name": "BISQUE"
+        },
+        {
+            "name": "NAVAJOWHITE"
+        },
+        {
+            "name": "WHEAT"
+        },
+        {
+            "name": "BURLYWOOD"
+        },
+        {
+            "name": "TAN"
+        },
+        {
+            "name": "ROSYBROWN"
+        },
+        {
+            "name": "SANDYBROWN"
+        },
+        {
+            "name": "GOLDENROD"
+        },
+        {
+            "name": "DARKGOLDENROD"
+        },
+        {
+            "name": "PERU"
+        },
+        {
+            "name": "CHOCOLATE"
+        },
+        {
+            "name": "SADDLEBROWN"
+        },
+        {
+            "name": "SIENNA"
+        },
+        {
+            "name": "BROWN"
+        },
+        {
+            "name": "MAROON"
+        },
+        {
+            "name": "WHITE"
+        },
+        {
+            "name": "SNOW"
+        },
+        {
+            "name": "HONEYDEW"
+        },
+        {
+            "name": "MINTCREAM"
+        },
+        {
+            "name": "AZURE"
+        },
+        {
+            "name": "ALICEBLUE"
+        },
+        {
+            "name": "GHOSTWHITE"
+        },
+        {
+            "name": "WHITESMOKE"
+        },
+        {
+            "name": "SEASHELL"
+        },
+        {
+            "name": "BEIGE"
+        },
+        {
+            "name": "OLDLACE"
+        },
+        {
+            "name": "FLORALWHITE"
+        },
+        {
+            "name": "IVORY"
+        },
+        {
+            "name": "ANTIQUEWHITE"
+        },
+        {
+            "name": "LINEN"
+        },
+        {
+            "name": "LAVENDERBLUSH"
+        },
+        {
+            "name": "MISTYROSE"
+        },
+        {
+            "name": "GAINSBORO"
+        },
+        {
+            "name": "LIGHTGRAY"
+        },
+        {
+            "name": "SILVER"
+        },
+        {
+            "name": "DARKGRAY"
+        },
+        {
+            "name": "GRAY"
+        },
+        {
+            "name": "DIMGRAY"
+        },
+        {
+            "name": "LIGHTSLATEGRAY"
+        },
+        {
+            "name": "SLATEGRAY"
+        },
+        {
+            "name": "DARKSLATEGRAY"
+        },
+        {
+            "name": "BLACK"
+        }
+    ]
+}

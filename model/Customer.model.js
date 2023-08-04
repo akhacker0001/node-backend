@@ -1,14 +1,18 @@
 const bcrypt = require('bcryptjs');
 
 module.exports = (sequelize, Sequelize) => {
-  const Admin = sequelize.define(
-    'admin',
+  const Customer = sequelize.define(
+    'customer',
     {
       id: {
         type: Sequelize.INTEGER,
         autoIncrement: true,
         primaryKey: true,
       },
+      name:{
+        type: Sequelize.STRING,
+        allowNull: false,
+        },
       email: {
         type: Sequelize.STRING,
         allowNull: false,
@@ -23,5 +27,5 @@ module.exports = (sequelize, Sequelize) => {
     },
   );
 
-  return Admin;
+  return Customer;
 };

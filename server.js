@@ -10,6 +10,8 @@ const AppError = require("./utils/appError")
 const globalError = require("./controller/errorController")
 const db = require("./model");
 
+const data = require("./data.json")
+
 // connectToMongo()
 
 app.use(bodyParser.json())
@@ -31,20 +33,16 @@ db.sequelize.sync()
   .then(async () => {
     let superAdminUser = await db.Admin.findOne({
       where: {
-        email: process.env.SUPER_ADMIN_EMAIL
+        email: process.env.ADMIN_EMAIL
       }
     })
     if (!superAdminUser) {
       db.Admin.create({
-        isSuperAdmin: true,
-        email: process.env.SUPER_ADMIN_EMAIL,
-        password: process.env.SUPER_ADMIN_PASS,
-        firstName: "naval",
-        lastName: "sood",
-        isAdmin: false,
-        activeStatus: true,
-        inviteStatus: "Joined"
+        email: process.env.ADMIN_EMAIL,
+        password: process.env.ADMIN_PASSWORD,
+        name: process.env.ADMIN_NAME,
       })
+      db.Color.bulkCreate(data.colors)
     }
     // db.City.bulkCreate(data.city)
     // db.State.bulkCreate(data.state)
@@ -62,7 +60,7 @@ app.get('/', (req, res) => {
 })
 
 app.use("/api/v1/admin",require("./routes/admin"));
-
+// app.use('/api/v1/media', express.static(process.env.FILE_LOCATION))
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
 })

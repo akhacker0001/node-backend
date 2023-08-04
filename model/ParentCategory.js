@@ -1,6 +1,8 @@
+const bcrypt = require('bcryptjs');
+
 module.exports = (sequelize, Sequelize) => {
-  const Category = sequelize.define(
-    'category',
+  const ParentCategory = sequelize.define(
+    'parentCategory',
     {
       id: {
         type: Sequelize.INTEGER,
@@ -15,5 +17,5 @@ module.exports = (sequelize, Sequelize) => {
     },
   );
 
-  return Category;
+  return ParentCategory;
 };
